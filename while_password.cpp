@@ -7,11 +7,12 @@ int main() {
     int percobaan = 3;
 
     while (percobaan >= 0) {
-        cout << "masukkan password: ";
+        cout << "tebak password: ";
         cin >> input_pass;
 
         if (input_pass == password){
             cout << "Gokil, bener. Selamat datang king";
+            break;
         }
         else if (percobaan == 0) {
             cout << "gagal. gudbai";
