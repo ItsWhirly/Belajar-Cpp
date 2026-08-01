@@ -1,16 +1,25 @@
 #include <iostream>
+using namespace std;
 
-int main (){
-    int daun = 3;
-    int i;
-    int j;
-    std::cout << " " << * (3 % 2)
-    for (i=1; i<=daun; i++) {
-        if (i % 3 == 0) {
-            for (j=1; j<=i; j++) {
-                std::cout<<"*";
-            }
+int main() {
+    int tinggi = 5;
+
+    for (int i = 1; i <= tinggi; i++) {
+        for (int j = 1; j <= tinggi - i; j++) {
+            cout << " ";
         }
-    std::cout<<std::endl;
+        for (int k = 1; k <= (2 * i - 1); k++) {
+            cout << "*";
+        }
+        cout << endl; 
     }
+
+    for (int i = 1; i <= 2; i++) {
+        for (int j = 1; j <= tinggi - 1; j++) {
+            cout << " ";
+        }
+        cout << "*" << endl;
+    }
+
+    return 0;
 }
