@@ -2,7 +2,13 @@
 using namespace std;
 
 int main() {
-    int tinggi = 5;
+    int tinggi;
+    cout << "masukkan tinggi pohon: ";
+    cin >> tinggi;
+    if (tinggi > 51){ 
+        cout << "max 51 loh ya";
+        exit(1);
+        }
 
     for (int i = 1; i <= tinggi; i++) {
         for (int j = 1; j <= tinggi - i; j++) {
