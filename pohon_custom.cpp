@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     int tinggi;
-    cout << "masukkan tinggi pohon: ";
+    cout << "masukkan tinggi pohon (max 51): ";
     cin >> tinggi;
     if (tinggi > 51){ 
         cout << "max 51 loh ya";
