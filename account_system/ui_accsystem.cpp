@@ -1,7 +1,16 @@
 #include <iostream>
 #include <cstdlib>
+#include <unordered_map>
+#include "login.h"
+using namespace std; 
 
 int main (){
+
+    unordered_map<std::string, std::string> database = {
+        {"Whirly", "1234"},
+        {"Amba", "Tubas"}
+    };
+
     int pilihan;
     
     std::cout << "=== SELAMAT DATANG DI WHIRLY.WEB ===" << std::endl;
@@ -18,7 +27,7 @@ int main (){
         std::cout<<"masih proses ygy";
     }
     if (pilihan == 2){
-        std::cout<<"masih proses juga";
+        loginUser(database);
     }
     if (pilihan == 3){
         std::cout<<"ini juga proses";
