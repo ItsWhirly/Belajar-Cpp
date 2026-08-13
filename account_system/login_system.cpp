@@ -2,9 +2,14 @@
 #include <unordered_map>
 using namespace std;
 
-void loginUser(unordered_map<string, string>& database){
+int main(){
     std::string user;
     std::string password;
+
+    unordered_map<std::string, std::string> database = {
+        {"Whirly", "1234"},
+        {"Amba", "Tubas"}
+    };
     
     cout << "=== Masukkan Username dan Password anda! ===" << endl;
     cout << "username: ";

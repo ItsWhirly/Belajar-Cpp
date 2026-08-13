@@ -6,11 +6,6 @@ using namespace std;
 
 int main (){
 
-    unordered_map<std::string, std::string> database = {
-        {"Whirly", "1234"},
-        {"Amba", "Tubas"}
-    };
-
     int pilihan;
     
     std::cout << "=== SELAMAT DATANG DI WHIRLY.WEB ===" << std::endl;
@@ -27,7 +22,7 @@ int main (){
         std::cout<<"masih proses ygy";
     }
     if (pilihan == 2){
-        loginUser(database);
+        std::cout<<"belummm sabarrrr";
     }
     if (pilihan == 3){
         std::cout<<"ini juga proses";
