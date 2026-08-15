@@ -52,7 +52,7 @@ int main (){
     if (database_save.is_open()) {
         nlohmann::json data_JSON = data_akun;
         database_save << data_JSON.dump(4);
-        database.close();
+        database_save.close();
     }
 
     cout << "=== REGISTRASI BERHASIL! ===";
