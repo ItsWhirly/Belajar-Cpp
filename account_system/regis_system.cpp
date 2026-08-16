@@ -3,7 +3,6 @@
 #include <unordered_map>
 #include "json.hpp"
 using namespace std;
-//kurang masukkin password, dan nulis ke .json
 
 int main (){
     ifstream database("database.json");
@@ -12,7 +11,7 @@ int main (){
     if (database.is_open() && database.peek() != ifstream::traits_type::eof()){
         nlohmann::json data_JSON;
         database >> data_JSON;
-        data_akun = data_JSON.get<unordered_map<string, string>>(); // Auto-konversi & masukin ke data_akun!
+        data_akun = data_JSON.get<unordered_map<string, string>>(); 
         database.close();
     }
     else {
@@ -48,6 +47,7 @@ int main (){
     }
 
     data_akun[user_input] = pass_input;
+    
     ofstream database_save("database.json");
     if (database_save.is_open()) {
         nlohmann::json data_JSON = data_akun;
