@@ -36,6 +36,12 @@ int main (){
 
     cout << "Masukkan Password: ";
     cin >> pass_input;
+    while (true) {
+    if (pass_input.length() < 8){
+        cout << "Panjang Password Minimal 8 Karakter!" << endl;
+        }
+    else {break;}
+    }
     while (true){
         string konfir_pass;
         cout << "Konfirmasi Password: ";
