@@ -3,13 +3,13 @@ Projek simulasi cara kerja manajemen akun dalam bentuk dial interaktif seperti *
 
 ## Feature dan Status Project
 - [x] **User Interface Dial:** Interface user untuk sistem.
-- [ ] **Integrasi antar Program:** Mengintegrasikan program regis,login,delete,change ke UI.
+- [25%] **Integrasi antar Program:** Mengintegrasikan program regis,login,delete,change ke UI.
 - [x] **Registrasi Akun:** Pendaftaran user baru + cek duplikasi username.
 - [x] **Validasi Input:** Minimum panjang username (5 karakter) & konfirmasi password.
 - [x] **Save/Load:** Membaca & menyimpan data akun ke file `database.json`.
-- [ ] **Log In Akun:** Masuk ke akun yang sudah terdaftar *(Progress)*.
-- [ ] **Ubah Password:** Mengganti password akun *(Progress)*.
-- [ ] **Hapus Akun:** Menghapus akun dari sistem *(Progress)*.
+- [50%] **Log In Akun:** Masuk ke akun yang sudah terdaftar.
+- [ ] **Ubah Password:** Mengganti password akun.
+- [ ] **Hapus Akun:** Menghapus akun dari sistem.
 
 ## Alat & Bahan (Tech Stack)
 - **Bahasa:** C++20
