@@ -1,7 +1,10 @@
 #include <iostream>
 #include <cstdlib>
 #include <unordered_map>
+#include "acc_system.hpp"
 using namespace std; 
+
+void systemRegistration();
 
 int main (){
 
@@ -18,18 +21,18 @@ int main (){
     std::cin >> pilihan;
 
     if (pilihan == 1){
-        std::cout<<"masih proses ygy";
+        systemRegistration();
     }
-    if (pilihan == 2){
+    else if (pilihan == 2){
         std::cout<<"belummm sabarrrr";
     }
-    if (pilihan == 3){
+    else if (pilihan == 3){
         std::cout<<"ini juga proses";
     }
-    if (pilihan == 4){
+    else if (pilihan == 4){
         std::cout<<"sabar yahh";
     }
-    if (pilihan == 5){
+    else if (pilihan == 5){
         std::cout<<"tunggu aja ehhehe";
     }
     else {

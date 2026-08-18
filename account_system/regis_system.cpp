@@ -2,9 +2,10 @@
 #include <fstream>
 #include <unordered_map>
 #include "json.hpp"
+#include "acc_system.hpp"
 using namespace std;
 
-int main (){
+void systemRegistration (){
     ifstream database("database.json");
     unordered_map<string, string> data_akun;
 
