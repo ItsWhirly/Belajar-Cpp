@@ -5,6 +5,7 @@
 using namespace std; 
 
 void systemRegistration();
+void system_login();
 
 int main (){
 
@@ -24,7 +25,7 @@ int main (){
         systemRegistration();
     }
     else if (pilihan == 2){
-        std::cout<<"belummm sabarrrr";
+        systemLogin();
     }
     else if (pilihan == 3){
         std::cout<<"ini juga proses";

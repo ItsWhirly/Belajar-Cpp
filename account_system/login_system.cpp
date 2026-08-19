@@ -2,9 +2,10 @@
 #include <unordered_map>
 #include <fstream>
 #include "json.hpp"
+#include "acc_system.hpp"
 using namespace std;
 
-int main(){
+void systemLogin(){
     ifstream database("database.json");
     unordered_map <string, string> data_akun;
 
@@ -22,9 +23,9 @@ int main(){
     std::string password;
     
     cout << "=== Masukkan Username dan Password anda! ===" << endl;
-    cout << "username: ";
+    cout << "Uername: ";
     cin >> user;
-    cout << "password: ";
+    cout << "Password: ";
     cin >> password;
 
     if (data_akun.count(user) > 0 && data_akun[user] == password)
