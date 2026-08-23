@@ -10,6 +10,9 @@ Program mengacak pilihan player 1 dan player 2 lalu mengadu Batu, Kertas, dan Gu
 ### Pohon Custom
 Program untuk memunculkan pola karakter bintang (`*`) yang membentuk pohon dengan ketinggian dinamis (maksimal 51).
 - **Materi:** Nested Loops.
+### Video PLayer
+Program mengkomunikasikan kepada windows untuk memutar video via terminal.
+- **Materi:** ctsdlib, system("").
 
 >*Folder ini akan terus bertambah seiring waktu saya belajar.
 
