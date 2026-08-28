@@ -10,9 +10,9 @@ void systemLogin(){
     unordered_map <string, string> data_akun;
 
     if (database.is_open() && database.peek() != ifstream::traits_type::eof()){
-        nlohmann::json data_JSON;
-        database >> data_JSON;
-        data_akun = data_JSON.get<unordered_map<string, string>>(); 
+        nlohmann::json data_tempo;
+        database >> data_tempo;
+        data_akun = data_tempo.get<unordered_map<string, string>>(); 
         database.close();
     }
     else {
