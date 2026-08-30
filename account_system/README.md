@@ -8,7 +8,7 @@ Projek simulasi cara kerja manajemen akun dalam bentuk dial interaktif seperti *
 - [x] **Validasi Input:** Minimum panjang username (5 karakter) & konfirmasi password.
 - [x] **Save/Load:** Membaca & menyimpan data akun ke file `database.json`.
 - [X] **Log In Akun:** Masuk ke akun yang sudah terdaftar.
-- [ ] **Ubah Password:** Mengganti password akun.
+- [X] **Ubah Password:** Mengganti password akun.
 - [ ] **Hapus Akun:** Menghapus akun dari sistem.
 
 ## Alat & Bahan (Tech Stack)
