@@ -8,3 +8,4 @@ using namespace std;
 
 void systemRegistration();
 void systemLogin();
+void systemChangePassword();

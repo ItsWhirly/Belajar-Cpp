@@ -6,8 +6,7 @@ using namespace std;
 
 void systemRegistration();
 void system_login();
-
-int main (){
+int main(){
 
     int pilihan;
     
@@ -17,24 +16,39 @@ int main (){
     std::cout << "3. Hapus akun" << std::endl;
     std::cout << "4. Ganti Sandi Akun" << std::endl;
     std::cout << "5. Informasi" << std::endl;
+    std::cout << "0. Kembali" << std::endl;
     std::cout << "====================================" << std::endl;
     std::cout << "pilih: ";
     std::cin >> pilihan;
 
     if (pilihan == 1){
         systemRegistration();
+        std::cout << std::endl;
+        std::cout << "=== TERIMAKASIH SUDAH MAMPIR! ===";
     }
     else if (pilihan == 2){
         systemLogin();
+        std::cout << std::endl;
+        std::cout << "=== TERIMAKASIH SUDAH MAMPIR! ===";
     }
     else if (pilihan == 3){
         std::cout<<"ini juga proses";
+        std::cout << std::endl;
+        std::cout << "=== TERIMAKASIH SUDAH MAMPIR! ===";
     }
     else if (pilihan == 4){
-        std::cout<<"sabar yahh";
+        systemChangePassword();
+        std::cout << std::endl;
+        std::cout << "=== TERIMAKASIH SUDAH MAMPIR! ===";
     }
     else if (pilihan == 5){
         std::cout<<"tunggu aja ehhehe";
+        std::cout << std::endl;
+        std::cout << "=== TERIMAKASIH SUDAH MAMPIR! ===";
+    }
+    else if (pilihan == 0){
+        std::cout << "=== TERIMAKASIH SUDAH MAMPIR! ===";
+        exit(0);
     }
     else {
         std::cout<<"ora valid kocak";
