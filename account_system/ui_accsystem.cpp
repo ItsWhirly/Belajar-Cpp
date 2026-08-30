@@ -23,27 +23,19 @@ int main(){
 
     if (pilihan == 1){
         systemRegistration();
-        std::cout << std::endl;
-        std::cout << "=== TERIMAKASIH SUDAH MAMPIR! ===";
     }
     else if (pilihan == 2){
         systemLogin();
-        std::cout << std::endl;
-        std::cout << "=== TERIMAKASIH SUDAH MAMPIR! ===";
     }
     else if (pilihan == 3){
-        std::cout<<"ini juga proses";
-        std::cout << std::endl;
+        std::cout<<"ini juga proses" << std::endl;
         std::cout << "=== TERIMAKASIH SUDAH MAMPIR! ===";
     }
     else if (pilihan == 4){
         systemChangePassword();
-        std::cout << std::endl;
-        std::cout << "=== TERIMAKASIH SUDAH MAMPIR! ===";
     }
     else if (pilihan == 5){
-        std::cout<<"tunggu aja ehhehe";
-        std::cout << std::endl;
+        std::cout<<"tunggu aja ehhehe" << std::endl;
         std::cout << "=== TERIMAKASIH SUDAH MAMPIR! ===";
     }
     else if (pilihan == 0){

@@ -44,8 +44,8 @@ void systemChangePassword(){
                 cout << "=== BERHASIL GANTI PASSWORD! ===";
     }
         }
-        else {
-            cout << "Yang bener masukkinnya, ngulang sana!";
-        }
+    }
+    else {
+        cout << "Yang bener masukkinnya, ngulang sana!";
     }
 }
