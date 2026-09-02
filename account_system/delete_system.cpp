@@ -52,7 +52,7 @@ void systemDeleteAccount(){
             }
             else{
                 cout << "Masukkan Input Yang Benar! (y/n)" << endl;
-                cout << "sisa attempt = " << 3 - attempt <<  endl;
+                cout << "sisa attempt = " << 2 - attempt <<  endl;
                 attempt++;
             }
         }
