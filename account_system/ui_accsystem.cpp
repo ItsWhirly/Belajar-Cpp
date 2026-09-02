@@ -6,6 +6,8 @@ using namespace std;
 
 void systemRegistration();
 void system_login();
+void systemChangePassword();
+void systemDeleteAccount();
 int main(){
 
     int pilihan;
@@ -28,8 +30,7 @@ int main(){
         systemLogin();
     }
     else if (pilihan == 3){
-        std::cout<<"ini juga proses" << std::endl;
-        std::cout << "=== TERIMAKASIH SUDAH MAMPIR! ===";
+        systemDeleteAccount();
     }
     else if (pilihan == 4){
         systemChangePassword();
